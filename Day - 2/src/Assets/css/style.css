@@ -1,0 +1,64 @@
+.inputcol{
+    background-color:whitesmoke;
+    color:aliceblue;
+    border-color:#00223E;
+    border-radius: 10px 10px 10px 10px;
+    height: 5vh;
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    gap: 0.Sren;
+    font-weight: bold;
+    align-self: center;
+    font-size: medium;
+    padding: 7px 24px;
+    box-shadow:
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.036),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+body{
+    height: 95vh;
+    width: 95vw;
+    background-image: linear-gradient(to right,#833ab4,#fd1d1d 50%,#fcb045);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.back{
+    border-radius: 3%;
+    padding: 30px 45px;
+    width: 50vh;
+    margin: 10%;
+    background-color: white;
+    align-self: center;
+    box-shadow:
+  3.4px 3.4px 2.7px rgba(0, 0, 0, 0.161),
+  8.7px 8.7px 6.9px rgba(0, 0, 0, 0.171),
+  17.7px 17.7px 14.2px rgba(0, 0, 0, 0.175),
+  36.5px 36.5px 29.2px rgba(0, 0, 0, 0.189),
+  100px 100px 80px rgba(0, 0, 0, 0.22)
+;
+
+}
+.button{
+    background-color:#333333;
+    padding: 20px 20px;
+    border-radius: 10%;
+    text-size-adjust: 50px;
+    color: white ;
+    font-size: large;
+    font: "FSP demo-blue vinyl";
+}
+.button:hover{
+    background-color:white;
+    color:black;
+}
+.col{
+    color: #333333;
+    font-style: "FSP demo-blue vinyl";
+    font-size-adjust: 50px;
+
+}
